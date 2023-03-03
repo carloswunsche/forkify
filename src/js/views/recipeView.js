@@ -4,7 +4,8 @@ import View from './View';
 // import icons from '../img/icons.svg'; // Parcel 1
 import icons from 'url:../../img/icons.svg'; // Parcel 2. Assets like imgs, vids, etc need that url: prefix
 // Importing fractional library for displaying better numbers on our markup
-import { Fraction } from 'fractional';
+// import { Fraction } from 'fractional';
+// Not working when building with parcel (on netlify)
 
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
@@ -47,7 +48,8 @@ class RecipeView extends View {
         <use href="${icons}#icon-check"></use>
       </svg>
       <div class="recipe__quantity">${
-        ing.quantity ? new Fraction(ing.quantity).toString() : ''
+        // ing.quantity ? new Fraction(ing.quantity).toString() : ''
+        ing.quantity
       }</div>
       <div class="recipe__description">
         <span class="recipe__unit">${ing.unit}</span>

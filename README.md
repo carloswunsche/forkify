@@ -12,21 +12,25 @@
 
 ---
 
-Mapty is an app to save your workouts, mostly cardio, on the browser.
+With forkify you can search, personalize, and create your own favourite recipes!
 
 ## Features
 
-- Implementation of external libraries such as Leaflet
-- Able to save your workouts locally
-- Simple and easy to use
+- Search among 1 million recipes
+- Personalize selecting amount of servings
+- Get original cooking instructions from source
+- Save your favourite recipes with a bookmark feature
+- Upload your own custom recipes
+- Use of the Forkify web API v2
+- Bundling with Parcel
 
 ## Live preview
 
-Access the live preview [following this link.](https://cw-mapty.netlify.app)
+Access the live preview [following this link.](https://cw-forkify.netlify.app)
 
 ## Screenshot
 
-![Preview Image](screenshot.png)
+![Preview Image](screenshot.jpg)
 
 ## Credits
 

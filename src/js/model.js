@@ -1,7 +1,3 @@
-/** We export two variables here:
- *  the state object and loadRecipe async function
- */
-
 import { API_URL, RES_PER_PAGE, KEY } from './config';
 import { AJAX } from './helpers';
 
